@@ -1,0 +1,87 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+body{
+  	background: #f3f7f7;
+}
+li{
+  list-style: none;
+}
+/*水平剧中 
+ */
+.center_h{
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 垂直剧中 */
+.center_v{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* 
+* 字体大小
+ */
+
+.text_size_38{
+  font-size: 38px;
+}
+ .text_size_34{
+  font-size: 34px;
+}
+.text_size_32{
+  font-size: 32px;
+}
+.text_size_24{
+  font-size: 24px;
+}
+.text_size_22{
+  font-size: 22px;
+}
+.text_size_18{
+  font-size: 18px;
+}
+.text_size_16{
+  font-size: 16px;
+}
+
+.text_size_14{
+  font-size: 14px;
+}
+.text_size_12{
+  font-size: 12px;
+}
+/*
+颜色
+*/
+.color_red{
+  color: #ff4e30;
+}
+.color_black{
+  color: #333333;
+}
+.color_gray{
+  color: #969090;
+}
+.color_gray_blun{
+  color: #848a93;
+}
+.color_white{
+  color:white;
+}
+/* 提示颜色 */
+.color_hint{
+  color: #c4c7cb
+}
+/* 文字居左 */
+.text_left{
+  text-align: left;
+}
+/* 加粗 */
+.text_bold{
+  font-weight: bold
+}
