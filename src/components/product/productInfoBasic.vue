@@ -188,6 +188,7 @@ export default {
   },
   created() {
     if (isLogin()) {
+      console.log('登录状态='+isLogin())
       this.getAccountInfo();
       this.getUserInfo();
     }
@@ -408,7 +409,7 @@ export default {
       this.$axios
         .post("/v1/uc/user/investorCurrent", "")
         .then(result => {
-          // console.log(result);
+          console.log(result);
           var data = result.result;
           if(data.user.isOpen){
             this.isOpen = true

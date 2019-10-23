@@ -14,8 +14,8 @@
                     关于我们</router-link>
                     <router-link class="pointer" to="bankInfo" tag="li">
                     银行存管</router-link>
-                    <router-link class="pointer" to="archivalInfo" tag="li">
-                    备案信息</router-link>
+                    <!-- <router-link class="pointer" to="archivalInfo" tag="li">
+                    备案信息</router-link> -->
                     <router-link class="pointer" to="companyInfo" tag="li">
                     公司概况</router-link>
                     <router-link class="pointer" to="expReport" tag="li">
@@ -70,30 +70,30 @@ export default {
                 case 'bankInfo':
                 this.leftPosition = 132
                 break;
-                case 'archivalInfo':
-                this.leftPosition = 258
-                break;
                 case 'companyInfo':
-                this.leftPosition = 384
+                this.leftPosition = 290
                 break;
                 case 'expReport':
-                this.leftPosition = 510
+                this.leftPosition = 434
                 break;
                 case 'operationData':
-                this.leftPosition = 640
+                this.leftPosition = 576
                 break;
                 case 'riskContrl':
-                this.leftPosition = 766
+                this.leftPosition = 718
                 break;
                 case 'riskTips':
-                this.leftPosition = 892
+                this.leftPosition = 861
                 break;
                 case 'lawInfo':
-                this.leftPosition = 1020
+                this.leftPosition = 1001
                 break;
                 case 'statement':
-                this.leftPosition = 1146
+                this.leftPosition = 1148
                 break;
+                // case 'statement':
+                // this.leftPosition = 1146
+                // break;
                 default:
                 break;
             }

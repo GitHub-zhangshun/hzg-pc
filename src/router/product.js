@@ -14,7 +14,7 @@ const product = [
         component: (resolve) => require(['@/views/product/productInfo.vue'], resolve),
         meta:{
             title:'产品详情',
-            requireAuth: true,
+            // requireAuth: true,
         }
     },
     //产品详情
